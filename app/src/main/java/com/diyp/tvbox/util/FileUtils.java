@@ -4,7 +4,6 @@ import android.os.Environment;
 import android.text.TextUtils;
 import android.util.Base64;
 
-import com.github.catvod.utils.Path;
 import com.diyp.tvbox.base.App;
 import com.diyp.tvbox.server.ControlManager;
 import com.diyp.tvbox.util.StringUtils;
