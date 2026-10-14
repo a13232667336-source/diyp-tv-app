@@ -13,6 +13,8 @@ jobs:
         with:
           java-version: '11'
           distribution: 'temurin'
+      - name: 生成 local.properties
+        run: echo "sdk.dir=$ANDROID_HOME" > local.properties
       - name: Build 老盒子版本
         run: |
           chmod +x gradlew
