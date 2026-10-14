@@ -12,7 +12,7 @@ import com.orhanobut.hawk.Hawk;
 
 import java.util.List;
 
-import io.github.anilbeesetti.nextlib.media3ext.ffdecoder.NextRenderersFactory;
+
 
 public class HawkUtils {
 
@@ -130,7 +130,7 @@ public class HawkUtils {
         int renderer = getExoRenderer();
         switch (renderer) {
             case 1:
-                return new NextRenderersFactory(context);
+                return new DefaultRenderersFactory(context);
             case 0:
             default:
                 return new DefaultRenderersFactory(context);
