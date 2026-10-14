@@ -1,0 +1,4 @@
+rootProject.name = "DIYP"
+include ':app'
+include ':quickjs'
+include ':pyramid'
